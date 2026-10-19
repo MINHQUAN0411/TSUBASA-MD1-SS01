@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập về các thẻ table và form</title>
+</head>
+<>
+    <h1 align="center">My Store</h1> 
+    <table border="1" width="85%" align="center">
+        <thead>
+            <colgroup>
+                <col width="45%">
+                <col width="30%">
+                <col width="25%">
+            </colgroup>
+            <tr>
+                <th><b>Item Photo</b></th>
+                <th><b>Name</b></th>
+                <th><b>Price</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center"><img src="https://media-cdn-v2.laodong.vn/uploaded/phamthuhien/2014_06_30/c%20(9)_oqev.jpg" alt="oranges" width="250"></td>
+                <td align="center">oranges</td>
+                <td align="center">&dollar;1 ea.</td>
+            </tr>
+            <tr>
+                <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfWQUTRpaTq8gVcH5ehiYbX1RTvdhCRDYKKAcU4ZOfz7fgMmbpcPro-G4&s=10" alt="banana" width="250"></td>
+                <td align="center">banana</td>
+                <td align="center">&dollar;0.75/lb</td>
+            </tr>
+            <tr>
+                <td align="center"><img src="https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/3/21/57539415674443c1832e203b09a89f13" alt="pomegranates" width="250"></td>
+                <td align="center">pomegranates</td>
+                <td align="center">3 for 5&dollar;</td>
+            </tr>
+            <tr>
+                <td align="center"><img src=https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Gummy_bears.jpg/1280px-Gummy_bears.jpg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="gummy bears" width="250"></td>
+                <td align="center">gummy bears</td>
+                <td align="center">&dollar;6 per bag</td>
+            </tr>
+            <tr>
+                <td align="center"><img src="https://cdn.nhathuoclongchau.com.vn/unsafe/800x0/sup_lo_xanh_co_tac_dung_gi_voi_suc_khoe_1_c77c0c3575.jpg" alt="Broccoli" Width="250"></td>
+                <td align="center">broccoli</td>
+                <td align="center">&dollar;3 a head</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2><b>Booking From</b></h2>
+    <form>
+        <label for="user name">Name:</label>
+        <input id="name" type="text" name="name">
+        <br>
+        <laber for="Email">Email:</laber>
+        <input id="Email" type="text" name="Email">
+        <br>
+        <laber for="Phone">Phone:</laber>
+        <input id="Phone" type="text" name="Phone">
+        <br>
+        <lable for="Date of birth">Date:</lable>
+        <input id="date" type="date" name="date">
+        <br>
+        <laber for="time">Time:</laber>
+        <input id="time" type="time" name="time">
+        <br>
+        <lable for="guests">Numer of guests:</lable>
+        <input id="number" type="guests" name="guests">
+        <br>
+        <input type="submit" value="submit">
+        </form>
+
+        <h2><b>Car Purchase From</b></h2>
+        <from>
+        <lable for="name">Name</lable>
+        <input id="name" type="text" name="name">
+        <br>
+        <laber for="Email">Email:</laber>
+        <input id="Email" type="text" name="Email">
+        <br>
+        <laber for="Phone">Phone:</laber>
+        <input id="Phone" type="text" name="Phone">
+        <br>
+        <laber for="car">Choose a Car:</laber>
+        <select id="car" name="car">
+            <option value="model1">model1</option>
+            <option value="model2">model2</option>
+            <option value="model3">model3</option>
+        </select>
+        <br>
+        <laber for="color">Choose a Color:</laber>
+        <select id="color" name="color">
+            <option value="Red">Red</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+        </select>
+        <br>
+        <lable for="quantity">Quantity:</lable>
+        <input id="number" type="quantity" name="quantity" min="1" max="100">
+        <br>
+        <laber for="Date">Delivery Date:</laber>
+        <input id="date" type="date" name="date">
+        <br>
+        <input type="submit" value="submit">
+        </from>
+</body>
+</html>
