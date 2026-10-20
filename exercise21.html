@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form tìm kiếm và lọc sản phẩm</title>
+</head>
+<body>
+    <form>
+        <header>
+            <h1><b>Tìm Kiếm Sản Phẩm</b></h1>
+        </header>
+        <p>
+            <lable for="search">Từ Khóa Tìm Kiếm:</lable>
+            <br>
+            <input id="search" type="search" name="search">
+        </p>
+
+        <p>
+            <lable for="product">Loại Sản Phẩm:</lable>
+            <br>
+            <select id="product" name="product">
+                <option value="electronics">Đồ Điện Tử</option>
+                <option value="home_appliances">Đồ Gia Dụng</option>
+                <option value="orther">Khác</option>
+            </select>
+        </p>
+        <input type="submit" value="Tìm Kiếm">
+    </form>
+</body>
+</html>
